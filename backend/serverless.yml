@@ -1,0 +1,21 @@
+service: JOY-audio-chatbot-dev-JOY-audio-chatbot
+
+
+provider:
+  name: aws
+  runtime: python3.11
+  stage: dev
+  region: us-east-1
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  JOY-audio-chatbot:
+    handler: handler.handler
+    timeout: 30
+    events:
+      - http:
+          path: get-answer
+          method: post
+          cors: true
