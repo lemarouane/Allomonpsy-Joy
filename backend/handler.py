@@ -5,7 +5,7 @@ import io
 import requests
 from requests.exceptions import Timeout
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 def transcribe_audio(audio_data):
     # Convert the audio data into a file-like object using io.BytesIO
@@ -32,7 +32,7 @@ def generate_chat_completion(messages):
 
 def generate_audio(generated_text):
     # API key
-    api_key = "b8fec7aab4598614ec4eb3f4b3b65bf6"
+    api_key = ""
 
     # Voice id
     voice_id = "21m00Tcm4TlvDq8ikWAM"
