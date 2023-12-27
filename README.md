@@ -12,8 +12,8 @@ Before you start using the JOY chatbot, make sure to follow these steps:
 1. Clone the repository and navigate to the project root.
 2. Install the necessary dependencies for the frontend by running npm install in the terminal.
 3. Replace the API keys in the backend .py file:
-- For OpenAI: `openai.api_key = "sk-YOUR_API_KEY"`
-- For ElevenLabs: `api_key = "YOUR_API_KEY"`
+- For OpenAI: `openai.api_key = "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"`
+- For ElevenLabs: `api_key = "b8fec7aab4598614ec4eb3f4b3b65bf6"`
 
 ### the steps 4 and 5 are problems for me so far 
 
